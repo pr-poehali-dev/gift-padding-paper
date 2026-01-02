@@ -9,9 +9,9 @@ const Index = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
   const products = [
-    { id: 1, name: 'Классический крафт', weight: '100г', price: '350₽', image: 'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/487f6ee5-92d0-4d62-adb6-3dd4748051a5.jpg' },
-    { id: 2, name: 'Натуральный микс', weight: '250г', price: '750₽', image: 'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/fc96a4f2-6eb9-49c8-bde5-1d911f5e3ded.jpg' },
-    { id: 3, name: 'Премиум набор', weight: '500г', price: '1200₽', image: 'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/a09b91ec-0161-436c-916e-c6b18b08127c.jpg' },
+    { id: 1, name: 'Классический крафт', weight: '100г', price: '350₽', image: 'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/b9ede4af-0678-4659-be75-98a9d35a9732.jpg' },
+    { id: 2, name: 'Натуральный микс', weight: '250г', price: '750₽', image: 'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/82188406-e3c4-4940-95da-cee8b002f0b5.jpg' },
+    { id: 3, name: 'Премиум набор', weight: '500г', price: '1200₽', image: 'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/a125f95c-5285-4fb7-9579-dcb9373bd050.jpg' },
   ];
 
   const usageIdeas = [
@@ -22,9 +22,9 @@ const Index = () => {
   ];
 
   const galleryImages = [
-    'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/487f6ee5-92d0-4d62-adb6-3dd4748051a5.jpg',
-    'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/fc96a4f2-6eb9-49c8-bde5-1d911f5e3ded.jpg',
-    'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/a09b91ec-0161-436c-916e-c6b18b08127c.jpg',
+    'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/b9ede4af-0678-4659-be75-98a9d35a9732.jpg',
+    'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/82188406-e3c4-4940-95da-cee8b002f0b5.jpg',
+    'https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/a125f95c-5285-4fb7-9579-dcb9373bd050.jpg',
   ];
 
   return (
@@ -74,7 +74,7 @@ const Index = () => {
           </div>
           <div className="relative animate-scale-in">
             <img 
-              src="https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/487f6ee5-92d0-4d62-adb6-3dd4748051a5.jpg" 
+              src="https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/b9ede4af-0678-4659-be75-98a9d35a9732.jpg" 
               alt="Эко наполнитель"
               className="rounded-3xl shadow-2xl w-full object-cover aspect-square"
             />
