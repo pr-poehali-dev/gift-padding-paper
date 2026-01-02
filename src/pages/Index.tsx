@@ -31,7 +31,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold font-serif text-primary">ЭкоНаполнитель</h1>
+          <h1 className="text-2xl font-bold font-serif text-primary">PaperPac</h1>
           <div className="hidden md:flex gap-6">
             <a href="#home" className="text-foreground hover:text-accent transition-colors">Главная</a>
             <a href="#catalog" className="text-foreground hover:text-accent transition-colors">Каталог</a>
@@ -261,7 +261,7 @@ const Index = () => {
               <div className="mt-8 pt-8 border-t border-border space-y-4">
                 <div className="flex items-center gap-3">
                   <Icon name="Mail" size={20} className="text-accent" />
-                  <span className="text-muted-foreground">info@econapolnitel.ru</span>
+                  <span className="text-muted-foreground">info@paperpac.ru</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" size={20} className="text-accent" />
@@ -279,7 +279,7 @@ const Index = () => {
 
       <footer className="bg-primary text-primary-foreground py-12">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="text-2xl font-serif font-bold mb-4">ЭкоНаполнитель</h3>
+          <h3 className="text-2xl font-serif font-bold mb-4">PaperPac</h3>
           <p className="text-primary-foreground/80 mb-6">Экологичная упаковка для заботливых людей</p>
           <div className="flex justify-center gap-6">
             <a href="#" className="hover:text-accent transition-colors">
@@ -293,7 +293,7 @@ const Index = () => {
             </a>
           </div>
           <p className="text-sm text-primary-foreground/60 mt-8">
-            © 2024 ЭкоНаполнитель. Все права защищены.
+            © 2024 PaperPac. Все права защищены.
           </p>
         </div>
       </footer>
