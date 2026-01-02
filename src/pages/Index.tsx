@@ -31,7 +31,14 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold font-serif text-primary">PaperPac</h1>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/projects/3139e22b-5058-428b-a1ba-122561112885/files/43a69dfe-13bd-4f1a-80cd-0ff80617a015.jpg" 
+              alt="PaperPac Logo" 
+              className="w-10 h-10 rounded-lg object-cover"
+            />
+            <h1 className="text-2xl font-bold font-serif text-primary">PaperPac</h1>
+          </div>
           <div className="hidden md:flex gap-6">
             <a href="#home" className="text-foreground hover:text-accent transition-colors">Главная</a>
             <a href="#catalog" className="text-foreground hover:text-accent transition-colors">Каталог</a>
